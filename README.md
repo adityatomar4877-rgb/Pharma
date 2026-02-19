@@ -9,10 +9,8 @@
 
 | Service | URL |
 |---------|-----|
-| **Web Application** | [https://dist-red-zeta.vercel.app](https://dist-red-zeta.vercel.app) |
-| **API (Backend)** | [https://pharmaguard-backend.vercel.app](https://pharmaguard-backend.vercel.app) |
-| **API Swagger Docs** | [https://pharmaguard-backend.vercel.app/docs](https://pharmaguard-backend.vercel.app/docs) |
-
+| **Web Application** | [https://dist-b3w8xkzts-adityatomar4877-rgbs-projects.vercel.app/) |
+| **API (Backend)** | [https://pharmaguard-backend-m34dx13l2-adityatomar4877-rgbs-projects.vercel.app) |
 ---
 
 ## 🎥 Video Demonstration
@@ -84,13 +82,12 @@ JSON Response (exact schema)
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/adityatomar4877-rgb/RIFT.git
-cd RIFT
+cd https://github.com/adityatomar4877-rgb/Pharma.git
 ```
 
 ### 2. Backend Setup
 ```bash
-cd pharmaguard-backend
+cd pharmag-backend
 
 # Create virtual environment
 python -m venv venv
@@ -115,7 +112,7 @@ uvicorn main:app --reload
 
 ### 3. Frontend Setup
 ```bash
-cd ../pharmaguard-frontend
+cd ../pharma-frontend
 
 # Install dependencies
 npm install
@@ -243,7 +240,7 @@ chr10   94942290  rs1057910   A    C    95    PASS    DP=140;AF=0.5;GENE=CYP2C9;
 
 ### Backend → Vercel
 ```bash
-cd pharmaguard-backend
+cd pharmag-backend
 vercel deploy --prod --yes
 # Set GROQ_API_KEY via: vercel env add GROQ_API_KEY production
 ```
@@ -251,7 +248,7 @@ vercel deploy --prod --yes
 ### Frontend → Vercel
 ```bash
 cd pharmaguard-frontend
-# Edit .env.local: VITE_API_URL=https://pharmaguard-backend.vercel.app
+# Edit .env.local: VITE_API_URL=https://pharma-backend.vercel.app
 npm run build
 vercel deploy dist --prod --yes
 ```
@@ -263,9 +260,9 @@ vercel deploy dist --prod --yes
 | Name | Role |
 |------|------|
 | **Aditya Tomar** | Full Stack & Deployment |
-| **[Member 2]** | Backend & Bioinformatics |
-| **[Member 3]** | Frontend & UI Design |
-| **[Member 4]** | AI/ML & LLM Integration |
+| **[Pratyksh Singh Parmar]** | Backend & Bioinformatics |
+| **[Ashwin Chauhan]** | Frontend & UI Design |
+| **[Priyansh Bhadoriya]** | AI/ML & LLM Integration |
 
 ---
 
