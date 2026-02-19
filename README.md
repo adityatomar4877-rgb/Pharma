@@ -7,6 +7,8 @@
 
 ## 🚀 Live Demo
 
+        OPEN BACKEND SERVER FIRST THEN WEB APPLICATION
+
 | Service | URL |
 |---------|-----|
 | **Web Application** | [https://dist-b3w8xkzts-adityatomar4877-rgbs-projects.vercel.app/) |
