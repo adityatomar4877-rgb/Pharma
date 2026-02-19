@@ -1,8 +1,29 @@
-fastapi==0.111.0
-uvicorn==0.29.0
-python-multipart==0.0.9
-groq>=0.5.0
-httpx>=0.27.0
-python-dotenv==1.0.1
-pydantic==2.7.1
-PyVCF3==1.0.3
+# PharmaGuard Frontend — Node.js Dependencies
+# Install all dependencies: npm install
+# Run dev server:          npm run dev
+# Build for production:    npm run build
+# ── Runtime Dependencies ──────────────────────────────────────────────────────
+# React core — UI framework
+react@^18.2.0
+# React DOM — renders React components into the browser
+react-dom@^18.2.0
+# jsPDF — generates downloadable PDF reports from analysis results
+jspdf@^4.2.0
+# ── Dev Dependencies (build tooling only, not included in final bundle) ────────
+# Vite — ultra-fast build tool and dev server (replaces Create React App)
+vite@^5.4.21
+# @vitejs/plugin-react — enables React JSX transform in Vite
+@vitejs/plugin-react@^4.7.0
+# Tailwind CSS — utility-first CSS framework for styling
+tailwindcss@^3.4.3
+# PostCSS — CSS transformer (required by Tailwind)
+postcss@^8.4.38
+# Autoprefixer — automatically adds vendor prefixes to CSS (required by Tailwind)
+autoprefixer@^10.4.19
+# ── Setup Instructions ─────────────────────────────────────────────────────────
+# 1. Ensure Node.js 18+ is installed: node --version
+# 2. Install dependencies:            npm install
+# 3. Copy environment file:           cp .env.example .env.local
+# 4. Set backend URL in .env.local:   VITE_API_URL=http://localhost:8000
+# 5. Start dev server:                npm run dev
+# 6. Open browser at:                 http://localhost:5173
