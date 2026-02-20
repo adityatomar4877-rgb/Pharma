@@ -12,7 +12,7 @@
 | Service | URL |
 |---------|-----|
 | **Web Application** | [https://dist-b3w8xkzts-adityatomar4877-rgbs-projects.vercel.app/) |
-| **API (Backend)** | [https://pharmaguard-backend-m34dx13l2-adityatomar4877-rgbs-projects.vercel.app) |
+| **API (Backend)** | [https://pharmaguard-backend.vercel.app) |
 ---
 
 ## 🎥 Video Demonstration
